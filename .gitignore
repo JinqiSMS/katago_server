@@ -1,0 +1,31 @@
+# KataGo binary and release archives
+katago-*.zip
+*.tar.gz
+
+# Neural network models (download separately; see README.txt)
+*.bin.gz
+
+# Runtime logs
+gtp_logs/
+*.log
+
+# OpenCL tuner and local cache (when homeDataDir is set in project dir)
+opencltune/
+.katago/
+
+# Match / analysis output
+match_sgfs/
+sgf_output/
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
